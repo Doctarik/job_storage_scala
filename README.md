@@ -1,6 +1,3 @@
-### Real-Time Fraud Detection Pipeline
+### Storage Dataset from HDFS local machine to NoSQL Cassandra using SparkSQL API
 
-
-The project uses Scala, Kafka, Spark and Cassandra to create an end-to-end fraud detection pipeline. <br />
-The fraud detection process creates a K-means and a Random Forest Model, which we load on our pipeline using Spark Streaming and estimates whether the transactions injested and processed in real-time from kafka are fraudulent or not. <br /> <br />
-The results are then stored into cassandra and exposed to the end user through a rest api using sse.
+The pipeline uses Scala langage, HDFS local, Spark and Cassandra to store Dataset (CSV file) from HDFS to Cassandra wtih some configs and utils
